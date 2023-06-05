@@ -6,6 +6,7 @@ import DefinitionItem from "./DefinitionItem";
 interface Props {
   game: Game;
 }
+
 const GameAttributes = ({ game }: Props) => {
   return (
     <SimpleGrid columns={2} as="dl">
